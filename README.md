@@ -95,5 +95,3 @@ Step 8: 	Pushing docker image into docker hub Repositories.
 ```
 docker push dharmaraj257/hey-nodejs:0.0.1.RELEASE 
 ```
-Output:
-![Alt text](<docker 4.png>)
