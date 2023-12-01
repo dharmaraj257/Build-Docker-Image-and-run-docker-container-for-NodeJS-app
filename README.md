@@ -41,7 +41,7 @@ npm i express
 
 Step 3:	Create index.js file to start node and execute the JS code.
 Index.js
-```json
+```
 const express = require('express')
 const app = express()
 const port = 3000
