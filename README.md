@@ -60,9 +60,13 @@ app.listen(port, () => {
 Step 4: Start the application.
 ```
 node index.js 
-Example app listening on port 3000
+Example app listening on port 3000![Uploading nodejs 1.png…]()
+
 ```
 Output:
+
+
+![nodejs 1](https://github.com/dharmaraj257/AWS-project-2/assets/100831265/76a53dd4-0931-40f1-b965-f3e9e69af6d1)
 
 Step 5: Create a docker file and containerized application.
 1.	First log into docker hub.
@@ -86,12 +90,18 @@ Step 6:	Build docker image.
  ```
  docker build -t dharmaraj257/hey-nodejs:0.0.1.RELEASE .
  ```
+
+![docker 1](https://github.com/dharmaraj257/AWS-project-2/assets/100831265/c187c4a2-1454-4153-a387-f08a21149b6a)
+
  step 7:  Run docker image using docker container.     
  ```
  docker container run -d -p 3000:3000 dharmaraj257/hey-nodejs:0.0.1.RELEASE 
  ```
 
+![docker 2](https://github.com/dharmaraj257/AWS-project-2/assets/100831265/e52569af-8e26-4742-9337-664619c50e02)
+
 Step 8: 	Pushing docker image into docker hub Repositories.
 ```
 docker push dharmaraj257/hey-nodejs:0.0.1.RELEASE 
 ```
+![docker 4](https://github.com/dharmaraj257/AWS-project-2/assets/100831265/6c16c2fd-4036-4fc0-b494-725a297e8e50)
