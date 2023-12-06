@@ -1,5 +1,5 @@
 
-# Build Docker Image and run docker container for NodeJS app.
+# Build Docker Image and run docker container for NodeJS app
 Create a simple project using NodeJS. build docker image and using docker container run the docker image. Push NodeJs Project into docker hub  repositories.
 
   Prerequisite
